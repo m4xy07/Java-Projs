@@ -16,7 +16,7 @@ public class RecommendationBookManager {
         }
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         ArrayList<Book> recommendations = new ArrayList<>();
         recommendations.add(new Book("Effective Java", "Joshua Bloch"));
         recommendations.add(new Book("Clean Code", "Robert C. Martin"));
